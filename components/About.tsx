@@ -7,7 +7,7 @@ const About = () => (
   <section id="about" className="py-20 w-full space-y-10">
     <Reveal>
       <h3 className="mb-10">
-        About{' '}
+        About{" "}
         <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
           me.
         </span>
@@ -19,21 +19,24 @@ const About = () => (
         className="flex-col text-left p-3 md:p-5 lg:p-10 gap-5 min-h-full"
       >
         <p>
-          &quot;Hey! I&apos;m Atzin — web designer, developer, fitness lover somehow and accidental content creator.
+          &quot;Hey! I&apos;m Tawanda — a dedicated software engineer with a
+          passion for building scalable, efficient, and user-friendly
+          applications. With expertise in modern technologies and a strong focus
+          on problem-solving, I thrive in creating innovative solutions that
+          drive impact and performance..
         </p>
         <p>
-          My background in design and development gives me the tools to bring ideas to life, but my heart is in
-          connecting with people. I love sharing my journey and what I&apos;ve learned along the way.
+          My background in software development gives me the tools to bring
+          ideas to life, but my heart is in connecting with people. I love
+          sharing my journey and what I&apos;ve learned along the way.
         </p>
         <p>
-          Got something in mind or just want to chat? Whether it&apos;s a new project or a fitness tip, I&apos;d love to
-          connect, don&apos;t be shy!
+          Got something in mind or just want to chat? Whether it&apos;s a new
+          project or a fitness tip, I&apos;d love to connect, don&apos;t be shy!
         </p>
       </Sparkle>
 
-      <div
-        className="relative overflow-hidden rounded-3xl border border-white/[0.1] transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4 p-10"
-      >
+      <div className="relative overflow-hidden rounded-3xl border border-white/[0.1] transition duration-200 shadow-input dark:shadow-none flex flex-col space-y-4 p-10">
         <p className="text-lg lg:text-3xl font-extrabold">
           <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
             My tech Stack!
